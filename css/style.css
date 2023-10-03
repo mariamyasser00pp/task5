@@ -1,0 +1,85 @@
+* {
+
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #d51f7a;
+}
+
+@font-face {
+    font-family: montasrat;
+    src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: lato;
+    src: url(font/Lato/Lato-Regular.ttf);
+}
+
+/* start nav*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mybgcolor {
+    background-color: var(--color1) !important;
+
+}
+
+
+.nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+    line-height: 20px;
+    font-family: montasrat;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+/*end nav*/
+/*start div1*/
+.div1 {
+    font-family: montasrat;
+}
+
+/*end div1*/
+/*start div2*/
+.fa-solid{
+    color: var(--color1);
+}
+/*end div2*/
+#slider h2{
+    font-family: lato;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+}
+#slider p{
+    font-family: lato;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    font-style: italic;
+}
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1!important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-image: none;
+    color: var(--color1)!important;
+    filter: none!important;
+    
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--color1)!important;
+ 
+}
+#PRICING #price {
+   
+    border-bottom: 1px solid gray;
+}
